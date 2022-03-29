@@ -11,10 +11,60 @@
     background-color: red;
 }
 
-.box img {
+/* creazione della box image */
+.box img, .boxdue img, .boxtre img {
     object-fit: cover;
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/*scritta sull'immagine */
+.boxscritta{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.primascritta{
+    position: absolute;
+    width: 30%;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    text-align: center;
+    color: yellow;
+    font-size: 50px;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+/* secondo immagine con box */
+.boxdue{
+    background-color: green;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+/* terza immagine */
+.boxtre{
+    background-color: yellow;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.terzascritta{
+    position: absolute;
+    width: 30%;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    text-align: center;
+    color: green;
+    font-size: 50px;
+    font-family: 'Rubik Mono One', sans-serif;
 }
