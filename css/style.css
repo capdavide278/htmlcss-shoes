@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+header{
+    position: fixed;
+    z-index: 10;
+}
+
 button{
     height: 40px;
     width: 40px;
@@ -19,7 +24,6 @@ a{
 
 /* posizione pulsanti */
 .btn{
-    background-color: red;
     bottom: 50px;
     padding-left: 1700px;
 }
