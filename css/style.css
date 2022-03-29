@@ -4,6 +4,25 @@
     box-sizing: border-box;
 }
 
+button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    text-decoration: solid;
+}
+
+/* posizione pulsanti */
+.btn{
+    background-color: red;
+    bottom: 50px;
+    padding-left: 1700px;
+}
+
+
+
+
 .box{
     position: relative;
     height: 100vh;
